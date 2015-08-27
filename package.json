@@ -4,16 +4,16 @@
   "description": "## Flatten an array of arrays...  ### or an array of arrays of arrays #### or an array of arrays of arrays of arrays ##### ...and so forth",
   "main": "index.js",
   "scripts": {
-    "compile": "babel index.es6 > index.js"
+    "compile": "babel index.es6 > index.js",
+    "test": "babel-node test.js | tap-spec",
+    "lint": "standard index.es6 test.js example.js"
   },
   "author": "David Mark Clements",
   "license": "MIT",
   "devDependencies": {
     "babel": "^5.8.21",
-    "tape": "^4.2.0"
-  },
-  "dependencies": {
-    "babel": "^5.8.21",
+    "standard": "^5.1.0",
+    "tap-spec": "^4.1.0",
     "tape": "^4.2.0"
   },
   "repository": {

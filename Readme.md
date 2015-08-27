@@ -18,7 +18,7 @@ be returned.
 
 ```js
 var flat = require('deep-flat')
-console.log(flat([[[1,2,3]]], 3)
+console.log(flat([[[[1, 2, 3]]]], 3))
 ```
 
 ## Implementation
