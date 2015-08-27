@@ -1,6 +1,6 @@
 # deep-flat
 
-## Flatten an arrays of arrays ad infinitum
+Flatten an arrays of arrays ad infinitum
 
 ## Usage
 deep-flat exports a single function accepting two parameters:
