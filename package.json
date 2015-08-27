@@ -1,6 +1,6 @@
 {
   "name": "deep-flat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "## Flatten an array of arrays...  ### or an array of arrays of arrays #### or an array of arrays of arrays of arrays ##### ...and so forth",
   "main": "index.js",
   "scripts": {
