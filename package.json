@@ -11,5 +11,17 @@
   "devDependencies": {
     "babel": "^5.8.21",
     "tape": "^4.2.0"
-  }
+  },
+  "dependencies": {
+    "babel": "^5.8.21",
+    "tape": "^4.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidmarkclements/deep-flat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidmarkclements/deep-flat/issues"
+  },
+  "homepage": "https://github.com/davidmarkclements/deep-flat#readme"
 }
